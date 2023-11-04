@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+
+#first {
+    color: white;
+    background-color: rgb(110, 135, 135);
+}
+
+#second {
+    color: rgb(255, 0, 238);
+    background-color: azure;
+}
+
+/* this is how we can apply css to id  */
+
+.red{
+    padding-left: 10rem;
+}
+
+/* . is used to apply css in class . red is class of 2 elements thats why both elements are padded.  */
+/* And also red is class name of 4th div  */
+
+/* .white
+{
+    margin-left: 13rem;
+} */
