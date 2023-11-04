@@ -1,0 +1,15 @@
+p{
+    background-color: rgb(255, 153, 0);
+}
+
+a {
+    background-color: rgb(238, 190, 242);
+}
+
+table,td,th {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 10px;
+    background-color: rgb(225, 241, 236);
+}
+
