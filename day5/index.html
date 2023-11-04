@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!-- form day  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 5 - form</title>
+</head>
+<body>
+    <h2>Form to apply to get registration form</h2>
+    <form action="" method="post"></form>
+    <!-- action is where data is sent  -->
+
+    <!-- for of label must be same as id of input  -->
+
+    <label for="username">Eneter your full name</label>
+    <input type="text" name="name" id="username" placeholder="eg : Lucifer Morningstar" required>
+
+    <label for="password">Enter your password</label>
+    <input type="password" name="pass" id="password" placeholder="*********" required>
+
+    <label for="phone">Enter your contact number</label>
+    <input type="tel" name="phone" id="phone" placeholder="93885637282" required>
+    
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="others"> Others
+
+    <!-- check box  -->
+    <input type="checkbox" name="tc" id="tc">
+    <label for="tc">I agree to the terms and conditions.</label>
+
+    <!-- text area  -->
+    <textarea name="comment" id="" cols="30" rows="10">Enter your comments, suggestion, feedback here.THANK YOU</textarea>
+
+    <!-- select tag  -->
+    <label for="animeChar">Your favourite character</label>
+    <select name="animeChar" id="animeChar">
+        <option value="Select">None</option>
+        <option value="Select">Lufyy</option>
+        <option value="Select">Zoro</option>
+    </select>
+</body>
+</html>
