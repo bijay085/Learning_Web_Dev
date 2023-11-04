@@ -1,0 +1,16 @@
+img{
+    width: 10rem;
+}
+
+/* we must use img tag to apply css  */
+/* Also we can use id */
+
+#pic {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.PC {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
