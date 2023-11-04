@@ -1,0 +1,1 @@
+alert("Welome to learning web dev from begining")     //show alert on top when reload:
