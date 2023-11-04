@@ -3,7 +3,7 @@ img{
 }
 
 /* we must use img tag to apply css  */
-/* Also we can use id */
+/* Also we can use id and class */
 
 #pic {
     border: 1px solid black;
@@ -13,4 +13,8 @@ img{
 .PC {
     padding-top: 10px;
     padding-bottom: 15px;
+}
+
+video {
+    width: 15rem;
 }
