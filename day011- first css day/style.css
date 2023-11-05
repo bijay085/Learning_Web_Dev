@@ -1,0 +1,37 @@
+/* we can use their name like div, span etc  */
+
+body{
+    background-color: rgb(29, 0, 116);
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: aqua;
+}
+
+span{
+   background-color: rgb(67, 51, 157);
+}
+
+/* we use comma for multiple selectors */
+div, span {
+    padding: 1rem;
+}
+
+/* class is selected using .classname */
+.first{
+    margin-left: 5rem;
+}
+
+.second {
+    margin-left: 3rem;
+}
+
+#me{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* we will use #id for selecting id as a selector  */
+
