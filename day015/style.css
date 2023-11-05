@@ -1,0 +1,14 @@
+.f{
+    background-color: gray;
+    color: red;
+}
+
+.s, .t, .fo{
+    background-color: black;
+    color: green;
+}
+
+.fi{
+    background-color: aqua;
+    color: rgb(155, 115, 54);
+}
