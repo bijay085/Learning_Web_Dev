@@ -1,0 +1,22 @@
+/* browser automatically provides margin and padding, and to reset them  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    background-color: aqua;
+}
+
+.box-second{
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 2px solid black;
+    height: 10rem; /* it means the height of actual content only */
+    box-sizing: border-box; /* when we add it it means height = actual conent + border + padding */
+}
+
+.box-first{
+    color: gray;
+    border: 1px solid black;
+}
