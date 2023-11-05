@@ -1,0 +1,30 @@
+
+.c1{
+  background-color: aquamarine;  
+}
+.c2{
+    background-color: rgb(172, 255, 127);  
+}
+.c4{
+    background-color: rgb(255, 127, 127);  
+}
+.c3{
+    background-color: rgb(127, 138, 255);   /*last one will be applied*/
+}
+
+
+.d1{
+    background-color: green;
+}
+.d2{
+    background-color: blue;
+}
+#k10{
+    background-color: blueviolet; /*id selector is highest after inline*/
+}
+.d3{
+    background-color: black;
+}
+.d4{
+    background-color: orange;
+}
