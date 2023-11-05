@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<!-- we are going to use here internal css  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day012- css selector 2</title>
+
+    <!-- styling here  -->
+    <style>
+        /* element selector  */
+        div{
+            background-color: rgb(154, 133, 174);
+        }
+
+        /* class selector  */
+        .second {
+            background-color: blue;
+        }
+
+        /* id selector  */
+        #third {
+            background-color: aqua;
+        }
+
+        /* child selector, it must be direct child, meaning fourth ko vitra direct p huna paryo  */
+        .fourth > p {
+            background-color: rgb(189, 25, 25) ;
+        }
+
+        /* or we can use  */
+        div > p {
+            color: rgb(193, 179, 197) ;
+        }
+
+        /* dessendent selector , div x div ko virtra katai pani paragraph x subfolder folder katai virtra then it will work  */
+
+        .fifth h3{
+            background-color: brown;
+            color: white;
+        }
+
+        /* universal selector  */
+        *{
+            padding: 0.3rem;
+        }
+
+        /* pseudo selector  */
+        /* yesle chahi visit gari sa k paxi color green garaux  */
+        a:visited{
+            color: green;
+        }
+
+        /* aba suru ma kasto dekhauny ta  */
+        a:link{
+            color: aqua;
+        }
+
+        a:active{
+            background-color: white;
+            padding-left: 1rem;
+        }
+
+        a:hover {
+            background-color: gray;
+            margin: 1rem;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        i am first div
+    </div>
+
+    <div class="second">
+        i am second div
+    </div>
+
+    <div id="third">
+        i am third div
+    </div>
+
+    <div class="fourth">
+        This is fourth div
+
+        <p>This is paragraph inside fourth div</p>
+    </div>
+
+    <div class="fifth">
+        <article>
+            <h3>This is dessendent selector example which is heading 3 inside div inside arcticle</h3>
+        </article>
+    </div>
+
+    <div class="sixth">
+        <a href="https://www.google.com">Google</a>
+    </div>
+    <div class="seventh">
+        <a href="https://www.facebook.com">Facebook</a>
+    </div>
+</body>
+</html>
