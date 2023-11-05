@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: blue;
+}
+
+p{
+    font-size:larger;
+    font-weight: bold;
+    text-decoration: overline;
+    color: green;
+    text-decoration-thickness: 1px;
+}
+
+.line p{
+    text-decoration: none;
+    color: rgb(226, 165, 43);
+    line-height: 10rem;
+}
+
+.letter{
+    /* word-spacing: 1rem; */
+    letter-spacing: 1rem;
+}
+.word{
+    word-spacing: 1rem;
+}
+
